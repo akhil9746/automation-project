@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="JPetStoreTestSuite" parallel="false"> <!-- You can set parallel="tests" or parallel="methods" if you want parallel execution -->
+    
+    <!-- Define the classes you want to run -->
+    <test name="LoginTests">
+        <classes>
+            <!-- Include the full path of the LoginTest class -->
+            <class name="jpetstore.JpetstoreTestingpage"/> 
+             <class name="jpetstore.Jpetstorehomepage"/> 
+            <class name="jpetstore.Jpetstoretestinghomepage"/>
+             <class name="jpetstore.JpetstoreCartpage"/>
+              <class name="jpetstore.JpetstoreTestcartpage"/>
+        </classes>
+    </test>
+
+</suite>
+
+
